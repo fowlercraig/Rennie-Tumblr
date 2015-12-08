@@ -42,9 +42,9 @@
   }
 }
 .fs_grid_row_row {
-  width: 103.4%;
-  margin-left: -1.7%;
-  margin-right: -1.7%;
+  width: 101.5%;
+  margin-left: -0.75%;
+  margin-right: -0.75%;
 }
 .fs_grid_row_row_contained {
   width: 100%;
@@ -52,10 +52,10 @@
   margin-right: 0;
 }
 .fs_grid_cell {
-  width: 96.6%;
+  width: 98.5%;
   float: left;
-  margin-left: 1.7%;
-  margin-right: 1.7%;
+  margin-left: 0.75%;
+  margin-right: 0.75%;
 }
 .fs_grid_cell_centered {
   float: none;
@@ -66,8 +66,8 @@
   box-sizing: content-box;
   margin-left: 0;
   margin-right: 0;
-  padding-left: 1.7%;
-  padding-right: 1.7%;
+  padding-left: 0.75%;
+  padding-right: 0.75%;
 }
 .fs_grid_cell_contained {
   margin-left: 0;
@@ -85,73 +85,73 @@
   width: 960px;
 }
 .fs-grid .fs-row .fs-lg-1 {
-  width: 4.93333333%;
+  width: 6.83333333%;
 }
 .fs-grid .fs-row .fs-lg-2 {
-  width: 13.26666667%;
+  width: 15.16666667%;
 }
 .fs-grid .fs-row .fs-lg-3 {
-  width: 21.6%;
+  width: 23.5%;
 }
 .fs-grid .fs-row .fs-lg-4 {
-  width: 29.93333333%;
+  width: 31.83333333%;
 }
 .fs-grid .fs-row .fs-lg-5 {
-  width: 38.26666667%;
+  width: 40.16666667%;
 }
 .fs-grid .fs-row .fs-lg-6 {
-  width: 46.6%;
+  width: 48.5%;
 }
 .fs-grid .fs-row .fs-lg-7 {
-  width: 54.93333333%;
+  width: 56.83333333%;
 }
 .fs-grid .fs-row .fs-lg-8 {
-  width: 63.26666667%;
+  width: 65.16666667%;
 }
 .fs-grid .fs-row .fs-lg-9 {
-  width: 71.6%;
+  width: 73.5%;
 }
 .fs-grid .fs-row .fs-lg-10 {
-  width: 79.93333333%;
+  width: 81.83333333%;
 }
 .fs-grid .fs-row .fs-lg-11 {
-  width: 88.26666667%;
+  width: 90.16666667%;
 }
 .fs-grid .fs-row .fs-lg-12 {
-  width: 96.6%;
+  width: 98.5%;
 }
 .fs-grid .fs-row .fs-lg-push-1 {
-  margin-left: 10.03333333%;
+  margin-left: 9.08333333%;
 }
 .fs-grid .fs-row .fs-lg-push-2 {
-  margin-left: 18.36666667%;
+  margin-left: 17.41666667%;
 }
 .fs-grid .fs-row .fs-lg-push-3 {
-  margin-left: 26.7%;
+  margin-left: 25.75%;
 }
 .fs-grid .fs-row .fs-lg-push-4 {
-  margin-left: 35.03333333%;
+  margin-left: 34.08333333%;
 }
 .fs-grid .fs-row .fs-lg-push-5 {
-  margin-left: 43.36666667%;
+  margin-left: 42.41666667%;
 }
 .fs-grid .fs-row .fs-lg-push-6 {
-  margin-left: 51.7%;
+  margin-left: 50.75%;
 }
 .fs-grid .fs-row .fs-lg-push-7 {
-  margin-left: 60.03333333%;
+  margin-left: 59.08333333%;
 }
 .fs-grid .fs-row .fs-lg-push-8 {
-  margin-left: 68.36666667%;
+  margin-left: 67.41666667%;
 }
 .fs-grid .fs-row .fs-lg-push-9 {
-  margin-left: 76.7%;
+  margin-left: 75.75%;
 }
 .fs-grid .fs-row .fs-lg-push-10 {
-  margin-left: 85.03333333%;
+  margin-left: 84.08333333%;
 }
 .fs-grid .fs-row .fs-lg-push-11 {
-  margin-left: 93.36666667%;
+  margin-left: 92.41666667%;
 }
 .fs-grid .fs-row [class*="-contained"].fs-lg-1 {
   width: 8.33333333%;
@@ -223,31 +223,31 @@
   margin-left: 91.66666667%;
 }
 .fs-grid .fs-row .fs-lg-fifth {
-  width: 16.6%;
+  width: 18.5%;
 }
 .fs-grid .fs-row .fs-lg-fourth {
-  width: 21.6%;
+  width: 23.5%;
 }
 .fs-grid .fs-row .fs-lg-third {
-  width: 29.93333333%;
+  width: 31.83333333%;
 }
 .fs-grid .fs-row .fs-lg-half {
-  width: 46.6%;
+  width: 48.5%;
 }
 .fs-grid .fs-row .fs-lg-full {
-  width: 96.6%;
+  width: 98.5%;
 }
 .fs-grid .fs-row .fs-lg-push-fifth {
-  margin-left: 21.7%;
+  margin-left: 20.75%;
 }
 .fs-grid .fs-row .fs-lg-push-fourth {
-  margin-left: 26.7%;
+  margin-left: 25.75%;
 }
 .fs-grid .fs-row .fs-lg-push-third {
-  margin-left: 35.03333333%;
+  margin-left: 34.08333333%;
 }
 .fs-grid .fs-row .fs-lg-push-half {
-  margin-left: 51.7%;
+  margin-left: 50.75%;
 }
 .fs-grid .fs-row [class*="-contained"].fs-lg-fifth {
   width: 20%;

@@ -34,7 +34,7 @@
   }
  ?>
 
-<body class="fs-grid page-<?php echo $page; ?>">
+<body class="fs-grid fs-grid-fluid page-<?php echo $page; ?>">
 
 <div id="wrapper">
 <?php include('parts/header.php') ?>

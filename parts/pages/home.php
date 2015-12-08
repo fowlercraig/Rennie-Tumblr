@@ -1,11 +1,74 @@
-<div class="wallpaper banner banner-medium fs-cell fs-full-all" data-background-options='{"source":{"0px":"http://i.imgur.com/wJnnD2Z.jpg","740px":"http://i.imgur.com/mUCJKSd.jpg"}}'>
-	<div class="banner_centered">
-		<div class="fs-row">
-			<div class="fs-cell fs-all-full text-center">
-				<h2>Now available in the shop:<br> Skinnings in Knot White</h2>
-				<a class="btn btn-sm btn-link">Click Here</a>
-			</div>
-		</div>
+<?php 
+	$width = 'fs-xl-3 fs-lg-4 fs-md-2 fs-sm-2';
+	$url	 = 'https://dl.dropboxusercontent.com/u/2280055/Rennie/';
+?>
+
+<div class="photo_grid fs-row">
+	
+	<div class="photo_grid--cell fs-cell <?php echo $width; ?>">
+		<a href="?page=image" class="photo_zoom">
+			<img src="<?php echo $url; ?>tumblr_nya6bcPk4Z1qzsn8ho1_1280.jpg" class="img-responsive" />
+		</a>
 	</div>
-	<div class="banner--overlay"></div>
+
+	<div class="photo_grid--cell fs-cell <?php echo $width; ?>">
+		<a href="#">
+			<img src="<?php echo $url; ?>tumblr_nxcsghEzz61qzsn8ho1_1280.jpg" class="img-responsive" />
+		</a>
+	</div>
+
+	<div class="photo_grid--cell fs-cell <?php echo $width; ?>">
+		<a href="#">
+			<img src="<?php echo $url; ?>tumblr_nvxcqwrv3m1qzsn8ho2_1280.jpg" class="img-responsive" />
+		</a>
+	</div>
+
+	<div class="photo_grid--cell fs-cell <?php echo $width; ?>">
+		<a href="#">
+			<img src="<?php echo $url; ?>tumblr_nvxc70Oeso1qzsn8ho2_1280.jpg" class="img-responsive" />
+		</a>
+	</div>
+
+	<div class="photo_grid--cell fs-cell <?php echo $width; ?>">
+		<a href="#">
+			<img src="<?php echo $url; ?>tumblr_nvpcnkLted1qzsn8ho1_r1_1280.jpg" class="img-responsive" />
+		</a>
+	</div>
+
+	<div class="photo_grid--cell fs-cell <?php echo $width; ?>">
+		<a href="#">
+			<img src="<?php echo $url; ?>tumblr_nsdn23qBMq1qzsn8ho2_1280.jpg" class="img-responsive" />
+		</a>
+	</div>
+
+	<div class="photo_grid--cell fs-cell <?php echo $width; ?>">
+		<a href="#">
+			<img src="<?php echo $url; ?>tumblr_nsdn23qBMq1qzsn8ho1_1280.jpg" class="img-responsive" />
+		</a>
+	</div>
+
+	<div class="photo_grid--cell fs-cell <?php echo $width; ?>">
+		<a href="#">
+			<img src="<?php echo $url; ?>tumblr_nr4r291zeK1qzsn8ho7_1280.jpg" class="img-responsive" />
+		</a>
+	</div>
+
+	<div class="photo_grid--cell fs-cell <?php echo $width; ?>">
+		<a href="#">
+			<img src="<?php echo $url; ?>tumblr_nr4r291zeK1qzsn8ho6_1280.jpg" class="img-responsive" />
+		</a>
+	</div>
+
+	<div class="photo_grid--cell fs-cell <?php echo $width; ?>">
+		<a href="#">
+			<img src="<?php echo $url; ?>tumblr_nr4r291zeK1qzsn8ho5_1280.jpg" class="img-responsive" />
+		</a>
+	</div>
+
+	<div class="photo_grid--cell fs-cell <?php echo $width; ?>">
+		<a href="#">
+			<img src="<?php echo $url; ?>tumblr_nr4r291zeK1qzsn8ho3_1280.jpg" class="img-responsive" />
+		</a>
+	</div>
+
 </div>

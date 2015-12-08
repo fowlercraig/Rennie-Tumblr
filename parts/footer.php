@@ -1,7 +1,7 @@
 <footer id="footer">
   <div class="fs-row">
     <menu class="fs-cell fs-all-half fs-sm-full">
-      <span class="btn btn--nav">Time Line 2015</span>
+      <span class="btn btn--nav"><?php echo $siteName; ?></span>
       <a href="?page=general" class="btn btn--nav">Contact Us</a>
       <a href="?page=general" class="btn btn--nav">Privacy Policy</a>
     </menu>

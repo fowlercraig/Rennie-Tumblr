@@ -1,4 +1,4 @@
 <?php 
 
-  $siteName = 'Lorem Ipsum';
+  $siteName = 'Rennie Solis';
   $siteDesc = '';
