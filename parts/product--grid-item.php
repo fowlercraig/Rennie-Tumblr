@@ -23,10 +23,14 @@
 	// $height = $data[1];
 ?>
 
-<figure class="photo_grid--cell infinite-item fs-cell <?php echo $width; ?>">
-	<a href="<?php echo $url; ?><?php echo $ranE; ?>" data-size="1280x960">
-		<img src="<?php echo $url; ?><?php echo $ranE; ?>" class="img-responsive" />
-	</a>
+<div class="photo_grid--cell infinite-item fs-cell <?php echo $width; ?>">
+	<div class="photo_grid--cell_gallery">
+		<figure>
+			<a href="<?php echo $url; ?><?php echo $ranE; ?>" data-size="1280x960">
+				<img src="<?php echo $url; ?><?php echo $ranE; ?>" class="img-responsive" />
+			</a>
+		</figure>
+	</div>
 	<div class="photo_grid--cell_meta fs-cell fs-all-half fs-contained">
 		<a href="#" class="ss-gizmo ss-refresh"></a>
 		<a href="#" class="ss-gizmo ss-heart"></a>
@@ -36,4 +40,4 @@
 	<div class="photo_grid--cell_meta fs-cell fs-all-push-half fs-all-half fs-contained text-right">
 		<a href="#" class="ss-gizmo ss-heart">(3)</a>
 	</div>
-</figure>
+</div>

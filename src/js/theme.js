@@ -19,13 +19,31 @@ function packery(){
 
 function infiniteScroll(){
 
-	var infinite = new Waypoint.Infinite({
-		element: $('.infinite-container')[0],
-		onAfterPageLoad: function(){
-			console.log('boom');
-			$('.photo_grid').isotope('appended');
-		},
-	});
+	//var infinite = new Waypoint.Infinite({
+	//	element: $('.infinite-container')[0],
+	//	onAfterPageLoad: function(){
+	//		console.log('boom');
+	//		$('.photo_grid').isotope('appended');
+	//	},
+	//});
+
+  new Waypoint.Infinite({
+      element: $(".infinite-container")[0],
+      more: ".infinite-more-link",
+      items: ".infinite-container > .infinite-item",
+      onBeforePageLoad: function () {
+          $("#loading").fadeIn(200)
+      },
+      onBeforeInsertItems: function ($items) {
+          $items.css({opacity: 0, transform: 'scale(0.001)'})
+      },
+      onAfterPageLoad: function ($items) {
+          $("#loading").fadeOut(200)
+          $('.photo_grid').imagesLoaded(function () {
+              $('.photo_grid').isotope("appended", $items)
+          })
+      },
+  })
 
 }
 

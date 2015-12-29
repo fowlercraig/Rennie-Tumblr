@@ -26,9 +26,9 @@
 
 </div>
 
-<a class="infinite-more-link" href="?page=more">More</a>
+<a class="infinite-more-link" href="?page=more" style="display:none;">More</a>
 
-<div id="loading">
+<div id="loading" style="display:none;">
 	<div class="fs-row">
 		<div class="fs-cell fs-all-full">
 			<img src="assets/1451427813_arrow_17.svg" id="loading--icon" />

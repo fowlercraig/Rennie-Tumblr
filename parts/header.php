@@ -13,7 +13,7 @@
          <menu id="header--nav_right" class="fs-cell fs-lg-half fs-md-half fs-sm-1 fs-xs-full">
             <a href="#" class="btn btn--nav btn--first">archive</a>
             <a href="#" class="btn btn--nav">renniesolis.com</a>
-            <a href="#" class="btn btn--nav ss-gizmo ss-mail fl-right"></a>
+            <a href="#" class="btn btn--nav ss-glyphish-outlined ss-mail fl-right"></a>
          </menu>
       </div>
    </header>

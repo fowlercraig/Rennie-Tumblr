@@ -26,7 +26,7 @@
 
 </div>
 
-<a class="infinite-more-link" href="?page=more2" style="display:none;">More</a>
+<a class="infinite-more-link" href="#" style="display:none;">More</a>
 
 <div id="loading">
 	<div class="fs-row">
