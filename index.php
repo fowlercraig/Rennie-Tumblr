@@ -18,7 +18,7 @@
 
 <link rel="stylesheet" href="assets/main.css">
 <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js?ver=1.11.1'></script>
-<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:400,600|Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
 
 <!--[if lt IE 9]>
 <script src="assets/app.ie.min.js"></script>
@@ -40,6 +40,7 @@
 <?php include('parts/header.php') ?>
 <div id="content"><?php include('parts/content.php') ?></div>
 <?php include('parts/footer.php') ?>
+<?php include('parts/photoswipe.php') ?>
 </div>
 
 <script type='text/javascript' src='assets/vendor.min.js'></script>

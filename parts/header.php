@@ -7,11 +7,13 @@
    ?>
    <header id="header" class="menu-swap">
       <div class="fs-row">
-         <menu id="header--nav_left" class="fs-cell fs-lg-3 fs-md-2 fs-sm-hide">
-            <a href="#" class="btn btn--nav btn-hamburg swap" data-swap-target=".menu-swap">Menu</a>
-         </menu>
-         <menu id="header--logo" class="fs-cell fs-lg-6 fs-md-2 fs-sm-1 text-center">
+         <menu id="header--logo" class="fs-cell fs-lg-half fs-md-half fs-sm-2 fs-xs-2">
             <a href="/" class="btn btn--nav btn-logo"><?php echo $siteName; ?></a>
+         </menu>
+         <menu id="header--nav_right" class="fs-cell fs-lg-half fs-md-half fs-sm-1 fs-xs-full">
+            <a href="#" class="btn btn--nav btn--first">archive</a>
+            <a href="#" class="btn btn--nav">renniesolis.com</a>
+            <a href="#" class="btn btn--nav ss-gizmo ss-mail fl-right"></a>
          </menu>
       </div>
    </header>

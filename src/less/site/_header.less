@@ -5,6 +5,47 @@
    background: @white;
    position: relative;
 
+   &--nav {
+      &_right {
+         @media @min {
+            padding-top: 0px;
+            //text-align: right;
+         }
+         @media @mobile {
+            padding-top: 5px;
+         }
+         @media @tablet {
+            padding-top: 0;
+            //text-align: left;
+         }
+         .btn {
+            @media @min {
+               .font_size(13);     
+            }
+            @media @mobile {
+               .font_size(16);  
+            }
+            
+            &:before {
+               position: relative;
+               top: 4px;
+               .font_size(18);
+            }
+         }
+      }
+   }
+
+   &--logo {
+      .btn {
+         @media @min {
+            .font_size(24);
+         }
+         @media @tablet {
+            .font_size(17);
+         }
+      }
+   }
+
    &-mobile {
       padding: @spaced/1.5 0;
       .transition();      

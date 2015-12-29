@@ -1,4 +1,4 @@
 <?php 
 
-  $siteName = 'Rennie Solis';
+  $siteName = 'A Photo Journal by Rennie Solis';
   $siteDesc = '';

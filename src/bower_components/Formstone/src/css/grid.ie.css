@@ -42,9 +42,9 @@
   }
 }
 .fs_grid_row_row {
-  width: 101.5%;
-  margin-left: -0.75%;
-  margin-right: -0.75%;
+  width: 102.4%;
+  margin-left: -1.2%;
+  margin-right: -1.2%;
 }
 .fs_grid_row_row_contained {
   width: 100%;
@@ -52,10 +52,10 @@
   margin-right: 0;
 }
 .fs_grid_cell {
-  width: 98.5%;
+  width: 97.6%;
   float: left;
-  margin-left: 0.75%;
-  margin-right: 0.75%;
+  margin-left: 1.2%;
+  margin-right: 1.2%;
 }
 .fs_grid_cell_centered {
   float: none;
@@ -66,8 +66,8 @@
   box-sizing: content-box;
   margin-left: 0;
   margin-right: 0;
-  padding-left: 0.75%;
-  padding-right: 0.75%;
+  padding-left: 1.2%;
+  padding-right: 1.2%;
 }
 .fs_grid_cell_contained {
   margin-left: 0;
@@ -85,73 +85,73 @@
   width: 960px;
 }
 .fs-grid .fs-row .fs-lg-1 {
-  width: 6.83333333%;
+  width: 5.93333333%;
 }
 .fs-grid .fs-row .fs-lg-2 {
-  width: 15.16666667%;
+  width: 14.26666667%;
 }
 .fs-grid .fs-row .fs-lg-3 {
-  width: 23.5%;
+  width: 22.6%;
 }
 .fs-grid .fs-row .fs-lg-4 {
-  width: 31.83333333%;
+  width: 30.93333333%;
 }
 .fs-grid .fs-row .fs-lg-5 {
-  width: 40.16666667%;
+  width: 39.26666667%;
 }
 .fs-grid .fs-row .fs-lg-6 {
-  width: 48.5%;
+  width: 47.6%;
 }
 .fs-grid .fs-row .fs-lg-7 {
-  width: 56.83333333%;
+  width: 55.93333333%;
 }
 .fs-grid .fs-row .fs-lg-8 {
-  width: 65.16666667%;
+  width: 64.26666667%;
 }
 .fs-grid .fs-row .fs-lg-9 {
-  width: 73.5%;
+  width: 72.6%;
 }
 .fs-grid .fs-row .fs-lg-10 {
-  width: 81.83333333%;
+  width: 80.93333333%;
 }
 .fs-grid .fs-row .fs-lg-11 {
-  width: 90.16666667%;
+  width: 89.26666667%;
 }
 .fs-grid .fs-row .fs-lg-12 {
-  width: 98.5%;
+  width: 97.6%;
 }
 .fs-grid .fs-row .fs-lg-push-1 {
-  margin-left: 9.08333333%;
+  margin-left: 9.53333333%;
 }
 .fs-grid .fs-row .fs-lg-push-2 {
-  margin-left: 17.41666667%;
+  margin-left: 17.86666667%;
 }
 .fs-grid .fs-row .fs-lg-push-3 {
-  margin-left: 25.75%;
+  margin-left: 26.2%;
 }
 .fs-grid .fs-row .fs-lg-push-4 {
-  margin-left: 34.08333333%;
+  margin-left: 34.53333333%;
 }
 .fs-grid .fs-row .fs-lg-push-5 {
-  margin-left: 42.41666667%;
+  margin-left: 42.86666667%;
 }
 .fs-grid .fs-row .fs-lg-push-6 {
-  margin-left: 50.75%;
+  margin-left: 51.2%;
 }
 .fs-grid .fs-row .fs-lg-push-7 {
-  margin-left: 59.08333333%;
+  margin-left: 59.53333333%;
 }
 .fs-grid .fs-row .fs-lg-push-8 {
-  margin-left: 67.41666667%;
+  margin-left: 67.86666667%;
 }
 .fs-grid .fs-row .fs-lg-push-9 {
-  margin-left: 75.75%;
+  margin-left: 76.2%;
 }
 .fs-grid .fs-row .fs-lg-push-10 {
-  margin-left: 84.08333333%;
+  margin-left: 84.53333333%;
 }
 .fs-grid .fs-row .fs-lg-push-11 {
-  margin-left: 92.41666667%;
+  margin-left: 92.86666667%;
 }
 .fs-grid .fs-row [class*="-contained"].fs-lg-1 {
   width: 8.33333333%;
@@ -223,31 +223,31 @@
   margin-left: 91.66666667%;
 }
 .fs-grid .fs-row .fs-lg-fifth {
-  width: 18.5%;
+  width: 17.6%;
 }
 .fs-grid .fs-row .fs-lg-fourth {
-  width: 23.5%;
+  width: 22.6%;
 }
 .fs-grid .fs-row .fs-lg-third {
-  width: 31.83333333%;
+  width: 30.93333333%;
 }
 .fs-grid .fs-row .fs-lg-half {
-  width: 48.5%;
+  width: 47.6%;
 }
 .fs-grid .fs-row .fs-lg-full {
-  width: 98.5%;
+  width: 97.6%;
 }
 .fs-grid .fs-row .fs-lg-push-fifth {
-  margin-left: 20.75%;
+  margin-left: 21.2%;
 }
 .fs-grid .fs-row .fs-lg-push-fourth {
-  margin-left: 25.75%;
+  margin-left: 26.2%;
 }
 .fs-grid .fs-row .fs-lg-push-third {
-  margin-left: 34.08333333%;
+  margin-left: 34.53333333%;
 }
 .fs-grid .fs-row .fs-lg-push-half {
-  margin-left: 50.75%;
+  margin-left: 51.2%;
 }
 .fs-grid .fs-row [class*="-contained"].fs-lg-fifth {
   width: 20%;

@@ -9,7 +9,12 @@
   user-select: none;
   font-weight: 300;
   border-radius: 1px;
-  padding: 0 15px;
+  @media @min {
+    padding: 0 2px;  
+  }
+  @media @tablet {
+    padding: 0 15px;  
+  }
   height: @height_default;
   line-height: @height_default;
   background: transparent;
@@ -50,8 +55,16 @@ input[type=button] {
   &--nav {
     margin-bottom: 0;
     font-weight: 400;
-    height: @height_nav;
-    line-height: @height_nav;
+    @media @min {
+      height: auto;
+      line-height: 1.4;
+      text-align: left;
+    }
+    @media @tablet {
+      height: @height_nav;
+      line-height: @height_nav;  
+      text-align: center;
+    }
     background: transparent;
     color: @textGray;
     &:hover {
